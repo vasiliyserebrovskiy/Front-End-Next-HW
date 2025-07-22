@@ -36,6 +36,9 @@ export default function RootLayout({
           <Link href={"/about"} className="hover:text-amber-300">
             About
           </Link>
+          <Link href={"/sports"} className="hover:text-amber-300">
+            Sports
+          </Link>
           <Link href={"/settings"} className="hover:text-amber-300">
             Settings
           </Link>

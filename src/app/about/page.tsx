@@ -2,10 +2,24 @@ import React from "react";
 
 export default function About() {
   return (
-    <div className="px-28 py-20">
-      <h2>About us</h2>
-      <p>Cohort 60fs is the best group ever!</p>
-      <p>Nothing is impossible for us!</p>
+    <div className="flex flex-col items-center p-8 gap-10">
+      <h2 className="text-2xl font-bold text-center mb-4">About the Project</h2>
+      <p className="text-lg text-center mb-4">
+        This platform was created as an online learning space dedicated to a
+        wide range of sports and physical activities.
+      </p>
+      <p className="text-lg text-center mb-4">
+        Our mission is to make quality sports education accessible to everyone —
+        anytime, anywhere. Whether you&apos;re taking your first steps in
+        fitness or looking to advance your skills in a specific discipline, our
+        courses are designed to support and motivate you.
+      </p>
+      <p className="text-lg text-center">
+        ✅ Expert-led courses
+        <br />
+        ✅ Flexible learning at your own pace
+        <br />✅ Community-driven support and progress tracking
+      </p>
     </div>
   );
 }
