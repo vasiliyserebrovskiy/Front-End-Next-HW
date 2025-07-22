@@ -39,9 +39,6 @@ export default function RootLayout({
           <Link href={"/sports"} className="hover:text-amber-300">
             Sports
           </Link>
-          <Link href={"/settings"} className="hover:text-amber-300">
-            Settings
-          </Link>
         </nav>
         {children}
       </body>
