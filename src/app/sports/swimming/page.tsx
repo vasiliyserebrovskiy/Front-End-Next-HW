@@ -8,7 +8,7 @@ export default function Swimming() {
         and confidence in the water.
       </p>
 
-      <ul className="list-disc list-inside text-gray-400 mb-4 text-left max-w-md mx-auto">
+      <ul className="list-disc list-inside text-amber-200 mb-4 text-left max-w-md mx-auto">
         <li>Breathing control and coordination</li>
         <li>Fundamental swimming techniques</li>
         <li>Popular styles: freestyle, breaststroke, backstroke, and more</li>

@@ -29,7 +29,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <nav className="flex justify-center items-center gap-6 min-h-12 sticky top-0">
+        <nav className="flex justify-center items-center gap-6 min-h-12 sticky top-0 bg-black font-bold">
           <Link href={"/"} className="hover:text-amber-300">
             Home
           </Link>
@@ -37,7 +37,7 @@ export default function RootLayout({
             About
           </Link>
           <Link href={"/sports"} className="hover:text-amber-300">
-            Sports
+            Sports courses
           </Link>
         </nav>
         {children}

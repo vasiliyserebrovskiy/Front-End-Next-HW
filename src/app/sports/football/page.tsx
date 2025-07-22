@@ -10,7 +10,7 @@ export default function Football() {
         skills and strategies to get started with football.
       </p>
 
-      <ul className="list-disc list-inside text-gray-400 mb-4 text-left max-w-md mx-auto">
+      <ul className="list-disc list-inside text-amber-200 mb-4 text-left max-w-md mx-auto">
         <li>Basic techniques: passing, shooting, and ball control</li>
         <li>Dribbling and footwork</li>
         <li>Team play and positioning</li>

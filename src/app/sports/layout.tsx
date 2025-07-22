@@ -7,14 +7,14 @@ export default function SettingsLayout({
 }>) {
   return (
     <>
-      <nav className="flex justify-center gap-8 text-yellow-500">
-        <Link href={"/sports/football"} className="hover:text-amber-300">
+      <nav className="flex justify-center items-center gap-8 font-bold text-yellow-500 bg-red-900 min-h-10 ">
+        <Link href={"/sports/football"} className="hover:text-amber-100">
           Football
         </Link>
-        <Link href={"/sports/swimming"} className="hover:text-amber-300">
+        <Link href={"/sports/swimming"} className="hover:text-amber-100">
           Swimming
         </Link>
-        <Link href={"/sports/tennis"} className="hover:text-amber-300">
+        <Link href={"/sports/tennis"} className="hover:text-amber-100">
           Tennis
         </Link>
       </nav>

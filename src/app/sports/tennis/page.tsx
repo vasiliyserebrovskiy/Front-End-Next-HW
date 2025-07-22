@@ -8,7 +8,7 @@ export default function Tennis() {
         builds coordination, speed, and strategy.
       </p>
 
-      <ul className="list-disc list-inside text-gray-400 mb-4 text-left max-w-md mx-auto">
+      <ul className="list-disc list-inside text-amber-200 mb-4 text-left max-w-md mx-auto">
         <li>Essential strokes: forehand, backhand, and volley</li>
         <li>Serving techniques and drills</li>
         <li>Rules of the game and scoring system</li>
